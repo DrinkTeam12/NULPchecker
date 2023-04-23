@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/new/imageforback">
+        <file>C:/Users/nazar/Downloads/dov-abit-t.jpg</file>
+        <file>C:/Users/nazar/Downloads/Lviv-Polytechnic_default-removebg-preview.png</file>
+        <file>C:/Users/nazar/Downloads/resizesd.png</file>
+        <file>C:/Users/nazar/Downloads/cutted.png</file>
+        <file>C:/Users/nazar/Downloads/gradient.jpg</file>
+        <file>C:/Users/nazar/Downloads/fine.jpg</file>
+        <file>C:/Users/nazar/Downloads/user.png</file>
+        <file>C:/Users/nazar/Downloads/avatardefault_92824.ico</file>
+        <file>C:/Users/nazar/Downloads/internet_lock_locked_padlock_password_secure_security_icon_127078.ico</file>
+        <file>C:/Users/nazar/Downloads/locked.png</file>
+    </qresource>
+</RCC>
