@@ -5,7 +5,7 @@ Project for OOP C++
 <div id="header" align="center">
   <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
 </div>
-  
+ [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=We+are+computer+science+students)](https://git.io/typing-svg)
 ### Contacts:
 #### Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
@@ -25,7 +25,6 @@ Project for OOP C++
 #### Fedyshyn Nestor
 * [Telegram](https://t.me/Nestor_rr)
 * [Git](https://github.com/Rentalll)
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=We+are+computer+science+students)](https://git.io/typing-svg)
 ### :hammer_and_wrench: Languages and Tools :
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Qt_logo_neon_2022.svg/640px-Qt_logo_neon_2022.svg.png" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
