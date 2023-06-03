@@ -5,9 +5,9 @@ Project for OOP C++
 ### Contacts:
 ##### Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
-* [Git](https://github.com/MusicW0lf)
-##### Oleksandr Kovalchuk
-* [Telegram](https://t.me/justsashakovalchuk)
+* [Git](https://github.com/NazikMGE)
+##### Horbovui Nazarii
+* [Telegram](https://t.me/thesonex)
 * [Git](https://github.com/JustKovalchuk)
 ##### Oleksandr Zhuk
 * [Telegram](https://t.me/Sasha_Beetle) 
