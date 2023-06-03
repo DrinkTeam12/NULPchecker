@@ -3,7 +3,7 @@ Project for OOP C++
 # [ProjectOOP]
 ### Project for `'Object-oriented programming'`
 ### Contacts:
-##### Khromiak Nazarii
+#### Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
 * [Git](https://github.com/NazikMGE)
 ##### Horbovui Nazarii
@@ -25,6 +25,7 @@ Project for OOP C++
 ## 🛠️ Stack
 * [QT](https://www.qt.io/download) - Qt is a cross-platform application development framework for desktop, embedded and mobile. Supported Platforms include Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS and others.
 * [Mongodb](https://www.mongodb.com/) - MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, it's popular with development teams using agile methodologies.
+
 ☟ ☟ Login form version 1.0 ☟ ☟
 
 ![image](https://user-images.githubusercontent.com/69088292/233884329-55dd04d7-d694-4ab8-9eb6-a57fb76eff1b.png)
