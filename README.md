@@ -28,8 +28,11 @@ Project for OOP C++
 
 ### :hammer_and_wrench: Languages and Tools :
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" title="Spring" alt="Spring" width="40" height="40"/>&nbsp;
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Qt_logo_neon_2022.svg/640px-Qt_logo_neon_2022.svg.png" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
- 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Qt_logo_neon_2022.svg/640px-Qt_logo_neon_2022.svg.png" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
+<img src="https://github.com/DrinkTeam12/projectOOP/assets/117306572/19155ea9-aaa1-4970-9410-67b5568bfe19" title="Material UI" alt="Material UI" width="40" height="40"/>&nbsp;
+
+
+
 </div>
 
 ## 🛠️ Stack
