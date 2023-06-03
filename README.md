@@ -8,10 +8,10 @@ Project for OOP C++
 * [Git](https://github.com/NazikMGE)
 ##### Horbovui Nazarii
 * [Telegram](https://t.me/thesonex)
-* [Git](https://github.com/JustKovalchuk)
-##### Oleksandr Zhuk
-* [Telegram](https://t.me/Sasha_Beetle) 
-* [Git](https://github.com/SashaBeetle)
+* [Git](https://github.com/TheSonex)
+##### Balan Denys
+* [Telegram](https://t.me/bonkbanan) 
+* [Git](https://github.com/bonkbanan)
 
 
 
