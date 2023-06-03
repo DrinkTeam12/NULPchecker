@@ -3,22 +3,22 @@ Project for OOP C++
 # [ProjectOOP]
 ### Project for `'Object-oriented programming'`
 ### Contacts:
-# Khromiak Nazarii
+#### Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
 * [Git](https://github.com/NazikMGE)
-##### Horbovui Nazarii
+#### Horbovui Nazarii
 * [Telegram](https://t.me/thesonex)
 * [Git](https://github.com/TheSonex)
-##### Balan Denys
+#### Balan Denys
 * [Telegram](https://t.me/bonkbanan) 
 * [Git](https://github.com/bonkbanan)
-##### Buldiak Arsen
+#### Buldiak Arsen
 * [Telegram](https://t.me/milkydew) 
 * [Git](https://github.com/Arezzon)
-##### Rodych Marko
+#### Rodych Marko
 * [Telegram](https://t.me/mare_14)
 * [Git](https://github.com/markorkok)
-##### Fedyshyn Nestor
+#### Fedyshyn Nestor
 * [Telegram](https://t.me/Nestor_rr)
 * [Git](https://github.com/Rentalll)
 
