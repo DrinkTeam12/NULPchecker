@@ -3,7 +3,7 @@ Project for OOP C++
 # [ProjectOOP]
 ### Project for `'Object-oriented programming'`
 ### Contacts:
-#### Khromiak Nazarii
+# Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
 * [Git](https://github.com/NazikMGE)
 ##### Horbovui Nazarii
