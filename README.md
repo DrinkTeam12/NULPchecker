@@ -7,7 +7,7 @@ Project for OOP C++
 </div>
 
 
-[![Typing SVG](https://github.com/DrinkTeam12=We+are+computer+science+students)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=We=are+computer+science+students)](https://github.com/DrinkTeam12)
 #### Khromiak Nazarii
 * [Telegram](https://t.me/sea_player)
 * [Git](https://github.com/NazikMGE)
