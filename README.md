@@ -38,4 +38,4 @@ Project for OOP C++
 ## 🛠️ Stack
 * [QT](https://www.qt.io/download) - Qt is a cross-platform application development framework for desktop, embedded and mobile. Supported Platforms include Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS and others.
 * [Mongodb](https://www.mongodb.com/) - MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, it's popular with development teams using agile methodologies.
-
+* [C++](https://uk.wikipedia.org/wiki/C%2B%2B) - C++ (or “C-plus-plus”) is a general-purpose programming and coding language. C++ is used in developing browsers, operating systems, and applications, as well as in-game programming, software engineering, data structures, etc.
