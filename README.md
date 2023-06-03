@@ -22,6 +22,8 @@ Project for OOP C++
 * [Telegram](https://t.me/Nestor_rr)
 * [Git](https://github.com/Rentalll)
 
+## 🛠️ Stack
+* [QT](https://www.qt.io/download) - Qt is a cross-platform application development framework for desktop, embedded and mobile. Supported Platforms include Linux, OS X, Windows, VxWorks, QNX, Android, iOS, BlackBerry, Sailfish OS and others.
 
 ☟ ☟ Login form version 1.0 ☟ ☟
 
