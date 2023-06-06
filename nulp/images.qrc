@@ -24,5 +24,9 @@
         <file>../images/home.png</file>
         <file>../images/teamlogo.jpg</file>
         <file>../images/image.png</file>
+        <file>../images/exchange.png</file>
+        <file>../images/photo.png</file>
+        <file>../images/photo (1).png</file>
+        <file>../images/photoagain.png</file>
     </qresource>
 </RCC>

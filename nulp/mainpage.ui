@@ -23,8 +23,8 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>19</y>
-     <width>80</width>
+     <y>20</y>
+     <width>61</width>
      <height>671</height>
     </rect>
    </property>
@@ -35,66 +35,193 @@
     padding: 4px;
 }</string>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout_2">
-    <item>
-     <layout class="QVBoxLayout" name="verticalLayout">
-      <property name="spacing">
-       <number>20</number>
-      </property>
-      <property name="topMargin">
-       <number>16</number>
-      </property>
-      <item>
-       <widget class="QLabel" name="label">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>60</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>60</height>
-         </size>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-        <property name="pixmap">
-         <pixmap>../images/home.png</pixmap>
-        </property>
-        <property name="scaledContents">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="monday">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>20</pointsize>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>1</y>
+      <width>61</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <property name="leftMargin">
+      <number>5</number>
+     </property>
+     <property name="rightMargin">
+      <number>5</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="minimumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>50</width>
+         <height>50</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../images/home.png</pixmap>
+       </property>
+       <property name="scaledContents">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>600</y>
+      <width>61</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="leftMargin">
+      <number>7</number>
+     </property>
+     <property name="rightMargin">
+      <number>7</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="singout">
+       <property name="minimumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>45</width>
+         <height>45</height>
+        </size>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="whatsThis">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    
+	background-color: rgb(255, 255, 255);
+    border-radius: 22px;
+}
+QPushButton:hover {
+        background-color: rgba(255, 255, 255, 85);
+}
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 150);
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="images.qrc">
+         <normaloff>:/images/exchange.png</normaloff>:/images/exchange.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>55</width>
+         <height>55</height>
+        </size>
+       </property>
+       <property name="autoExclusive">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>72</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_4">
+     <property name="bottomMargin">
+      <number>104</number>
+     </property>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="flagMonday">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="monday">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="focusPolicy">
+          <enum>Qt::NoFocus</enum>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
     color: white;
-    border-radius: 15px;
-    padding: 4px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 QPushButton:hover {
@@ -103,38 +230,67 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: rgba(255, 255, 255, 150);
 }</string>
-        </property>
-        <property name="text">
-         <string>ПН</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="tuesday">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>20</pointsize>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+         </property>
+         <property name="text">
+          <string>ПН</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="flagTuesday">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="tuesday">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
     color: white;
-    border-radius: 15px;
-    padding: 4px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 QPushButton:hover {
@@ -143,38 +299,70 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: rgba(255, 255, 255, 150);
 }</string>
-        </property>
-        <property name="text">
-         <string>ВТ</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="wednesday">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>20</pointsize>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+         </property>
+         <property name="text">
+          <string>ВТ</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="flagWenesday">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="wednesday">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
     color: white;
-    border-radius: 15px;
-    padding: 4px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 QPushButton:hover {
@@ -183,38 +371,67 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: rgba(255, 255, 255, 150);
 }</string>
-        </property>
-        <property name="text">
-         <string>СР</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="thursday">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>20</pointsize>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+         </property>
+         <property name="text">
+          <string>СР</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="flagThursday">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="thursday">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
     color: white;
-    border-radius: 15px;
-    padding: 4px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 QPushButton:hover {
@@ -223,38 +440,67 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: rgba(255, 255, 255, 150);
 }</string>
-        </property>
-        <property name="text">
-         <string>ЧТ</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="friday">
-        <property name="minimumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>60</width>
-          <height>50</height>
-         </size>
-        </property>
-        <property name="font">
-         <font>
-          <pointsize>20</pointsize>
-          <bold>true</bold>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+         </property>
+         <property name="text">
+          <string>ЧТ</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>15</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="flagFriday">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="friday">
+         <property name="minimumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>50</width>
+           <height>45</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>20</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
     color: white;
-    border-radius: 15px;
-    padding: 4px;
+    border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 QPushButton:hover {
@@ -263,69 +509,22 @@ QPushButton:hover {
 QPushButton:pressed {
     background-color: rgba(255, 255, 255, 150);
 }</string>
-        </property>
-        <property name="text">
-         <string>ПТ</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <layout class="QVBoxLayout" name="verticalLayout_4">
-        <property name="topMargin">
-         <number>146</number>
-        </property>
-        <property name="bottomMargin">
-         <number>0</number>
-        </property>
-        <item>
-         <widget class="QPushButton" name="singout">
-          <property name="maximumSize">
-           <size>
-            <width>65</width>
-            <height>55</height>
-           </size>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">QPushButton {
-    background-color: rgba(255, 255, 255, 50);
-    color: white;
-    border-radius: 15px;
-    padding: 4px;
-}
-
-QPushButton:hover {
-        background-color: rgba(255, 255, 255, 85);
-}
-QPushButton:pressed {
-    background-color: rgba(255, 255, 255, 150);
-}</string>
-          </property>
-          <property name="text">
-           <string/>
-          </property>
-          <property name="icon">
-           <iconset resource="images.qrc">
-            <normaloff>:/images/change.png</normaloff>:/images/change.png</iconset>
-          </property>
-          <property name="iconSize">
-           <size>
-            <width>50</width>
-            <height>100</height>
-           </size>
-          </property>
-         </widget>
-        </item>
-       </layout>
-      </item>
-     </layout>
-    </item>
-   </layout>
+         </property>
+         <property name="text">
+          <string>ПТ</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <widget class="QWidget" name="widget_2" native="true">
    <property name="geometry">
     <rect>
-     <x>110</x>
-     <y>19</y>
+     <x>90</x>
+     <y>20</y>
      <width>501</width>
      <height>671</height>
     </rect>
@@ -339,7 +538,7 @@ QPushButton:pressed {
    <widget class="QStackedWidget" name="stackedWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>10</y>
       <width>481</width>
       <height>651</height>
@@ -365,16 +564,15 @@ QPushButton:pressed {
  }</string>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>0</number>
     </property>
-    <widget class="QWidget" name="page"/>
     <widget class="QWidget" name="page_2">
      <widget class="QWidget" name="verticalLayoutWidget_2">
       <property name="geometry">
        <rect>
-        <x>10</x>
+        <x>0</x>
         <y>11</y>
-        <width>461</width>
+        <width>481</width>
         <height>631</height>
        </rect>
       </property>
@@ -383,13 +581,19 @@ QPushButton:pressed {
         <number>20</number>
        </property>
        <property name="leftMargin">
-        <number>20</number>
+        <number>25</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>25</number>
        </property>
        <property name="bottomMargin">
-        <number>100</number>
+        <number>0</number>
        </property>
        <item>
-        <widget class="QPushButton" name="second">
+        <widget class="QPushButton" name="first_lesson">
          <property name="minimumSize">
           <size>
            <width>425</width>
@@ -412,6 +616,7 @@ QPushButton:pressed {
          <property name="styleSheet">
           <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
     color: white;
     border-radius: 15px;
 	text-align: left; 
@@ -434,7 +639,7 @@ QPushButton:pressed {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="fisrt">
+        <widget class="QPushButton" name="second_lesson">
          <property name="minimumSize">
           <size>
            <width>425</width>
@@ -457,6 +662,7 @@ QPushButton:pressed {
          <property name="styleSheet">
           <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
     color: white;
     border-radius: 15px;
 	text-align: left; 
@@ -479,7 +685,7 @@ QPushButton:pressed {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="fourth">
+        <widget class="QPushButton" name="third_lesson">
          <property name="minimumSize">
           <size>
            <width>425</width>
@@ -502,6 +708,53 @@ QPushButton:pressed {
          <property name="styleSheet">
           <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 15px;
+	text-align: left; 
+	padding-left: 5px;
+    padding: 4px;
+}
+
+QPushButton:hover {
+        background-color: rgba(255, 255, 255, 85);
+}
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 150);
+}</string>
+         </property>
+         <property name="text">
+          <string> Математичний аналіз
+ Групи ПП-11 114 I н.к.
+ Практична</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="fourth_lesson">
+         <property name="minimumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Source Code Pro</family>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
     color: white;
     border-radius: 15px;
 	text-align: left; 
@@ -524,7 +777,7 @@ QPushButton:pressed {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="third">
+        <widget class="QPushButton" name="five_lesson">
          <property name="minimumSize">
           <size>
            <width>425</width>
@@ -547,6 +800,7 @@ QPushButton:pressed {
          <property name="styleSheet">
           <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
     color: white;
     border-radius: 15px;
 	text-align: left; 
@@ -569,7 +823,151 @@ QPushButton:pressed {
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="fiveth">
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <property name="topMargin">
+          <number>0</number>
+         </property>
+         <property name="bottomMargin">
+          <number>0</number>
+         </property>
+         <item>
+          <widget class="QLabel" name="fire3">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FIRE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="fire4">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FIRE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="fire1">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FIRE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="fire5">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FIRE</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="fire2">
+           <property name="minimumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>80</width>
+             <height>80</height>
+            </size>
+           </property>
+           <property name="text">
+            <string>FIRE</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QLabel" name="welcomeName">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>481</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial Black</family>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 15px;</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:18pt; color:#6f1bb3;&quot;&gt;Youre welcome back&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#6f1bb3;&quot;&gt;NAME!&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:22pt; color:#0da8d5;&quot;&gt;With love DRINK TEAM&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>0</y>
+        <width>431</width>
+        <height>291</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QPushButton" name="group_btn_1">
          <property name="minimumSize">
           <size>
            <width>425</width>
@@ -592,6 +990,7 @@ QPushButton:pressed {
          <property name="styleSheet">
           <string notr="true">QPushButton {
     background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
     color: white;
     border-radius: 15px;
 	text-align: left; 
@@ -607,9 +1006,95 @@ QPushButton:pressed {
 }</string>
          </property>
          <property name="text">
-          <string> Математичний аналіз
- Групи ПП-11, ПП-12, ПП-13 114 I н.к.
- Лекція</string>
+          <string>Група NAME</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="group_btn_2">
+         <property name="minimumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Source Code Pro</family>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 15px;
+	text-align: left; 
+	padding-left: 5px;
+    padding: 4px;
+}
+
+QPushButton:hover {
+        background-color: rgba(255, 255, 255, 85);
+}
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 150);
+}</string>
+         </property>
+         <property name="text">
+          <string>Група NAME</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="group_btn_3">
+         <property name="minimumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>425</width>
+           <height>80</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Source Code Pro</family>
+           <pointsize>12</pointsize>
+           <bold>true</bold>
+          </font>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton {
+    background-color: rgba(255, 255, 255, 50);
+	border: 2px solid rgba(255, 255, 255, 0);
+    color: white;
+    border-radius: 15px;
+	text-align: left; 
+	padding-left: 5px;
+    padding: 4px;
+}
+
+QPushButton:hover {
+        background-color: rgba(255, 255, 255, 85);
+}
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 150);
+}</string>
+         </property>
+         <property name="text">
+          <string>Група NAME</string>
          </property>
         </widget>
        </item>
@@ -621,9 +1106,9 @@ QPushButton:pressed {
   <widget class="QWidget" name="widget_3" native="true">
    <property name="geometry">
     <rect>
-     <x>630</x>
+     <x>610</x>
      <y>20</y>
-     <width>361</width>
+     <width>381</width>
      <height>111</height>
     </rect>
    </property>
@@ -645,7 +1130,7 @@ QPushButton:pressed {
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item>
-         <widget class="QLabel" name="label_3">
+         <widget class="QLabel" name="group">
           <property name="minimumSize">
            <size>
             <width>80</width>
@@ -667,7 +1152,7 @@ QPushButton:pressed {
          </widget>
         </item>
         <item>
-         <widget class="QLabel" name="label_4">
+         <widget class="QLabel" name="starosta">
           <property name="minimumSize">
            <size>
             <width>149</width>
@@ -676,8 +1161,8 @@ QPushButton:pressed {
           </property>
           <property name="maximumSize">
            <size>
-            <width>149</width>
-            <height>16</height>
+            <width>6456</width>
+            <height>456456</height>
            </size>
           </property>
           <property name="font">
@@ -697,27 +1182,6 @@ QPushButton:pressed {
          <widget class="QLabel" name="label_5">
           <property name="minimumSize">
            <size>
-            <width>141</width>
-            <height>16</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <italic>true</italic>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true"> color: white;</string>
-          </property>
-          <property name="text">
-           <string>Дисципліна: Математика</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_6">
-          <property name="minimumSize">
-           <size>
             <width>111</width>
             <height>16</height>
            </size>
@@ -731,29 +1195,7 @@ QPushButton:pressed {
            <string notr="true"> color: white;</string>
           </property>
           <property name="text">
-           <string>Тема: &quot;Знайомство&quot;</string>
-          </property>
-         </widget>
-        </item>
-        <item>
-         <widget class="QLabel" name="label_7">
-          <property name="minimumSize">
-           <size>
-            <width>91</width>
-            <height>16</height>
-           </size>
-          </property>
-          <property name="font">
-           <font>
-            <italic>true</italic>
-            <bold>true</bold>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true"> color: white;</string>
-          </property>
-          <property name="text">
-           <string>Дата: 29.09.2023</string>
+           <string>Дисципліна: Математичний аналіз</string>
           </property>
          </widget>
         </item>
@@ -794,10 +1236,10 @@ QPushButton:pressed {
   <widget class="QWidget" name="widget_4" native="true">
    <property name="geometry">
     <rect>
-     <x>630</x>
-     <y>150</y>
-     <width>361</width>
-     <height>541</height>
+     <x>610</x>
+     <y>140</y>
+     <width>381</width>
+     <height>551</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -809,10 +1251,10 @@ QPushButton:pressed {
    <widget class="QWidget" name="widget_5" native="true">
     <property name="geometry">
      <rect>
-      <x>19</x>
-      <y>19</y>
-      <width>321</width>
-      <height>501</height>
+      <x>10</x>
+      <y>10</y>
+      <width>361</width>
+      <height>531</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -821,6 +1263,51 @@ QPushButton:pressed {
     padding: 4px;
 }</string>
     </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>361</width>
+       <height>71</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt;&quot;&gt;Журнал&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget_2">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>66</y>
+       <width>351</width>
+       <height>458</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="page_10">
+      <widget class="QTableWidget" name="tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>351</width>
+         <height>451</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:white;</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="page_11"/>
+    </widget>
    </widget>
   </widget>
  </widget>

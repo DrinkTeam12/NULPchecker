@@ -1,6 +1,7 @@
 
 #include "loginpage.h"
 #include "ui_loginpage.h"
+#include "ui_mainpage.h"
 #include <QAction>
 #include <QIcon>
 #include <QFocusEvent>
@@ -9,16 +10,17 @@
 
 loginpage::loginpage(MongoDB &Mongo, QWidget *parent) :
     QMainWindow(parent),
-    database(Mongo), ui(new Ui::loginpage)
+    database(Mongo), window(Mongo, this), ui(new Ui::loginpage)
 {
     ui->setupUi(this);
     ui->stackedWidget->insertWidget(1, &window);
     setFixedSize(width(), height());
+    window.setFixedSize(1000, 700);
     ui->username->setClearButtonEnabled(true);
     ui->password->setClearButtonEnabled(true);
-    ui->username->addAction(QIcon("D:/project/images/avatardefault_92824.ico"), QLineEdit::LeadingPosition);
-    ui->password->addAction(QIcon("D:/project/images/locked.png"), QLineEdit::LeadingPosition);
-
+    ui->username->addAction(QIcon("../images/avatardefault_92824.ico"), QLineEdit::LeadingPosition);
+    ui->password->addAction(QIcon("../images/locked.png"), QLineEdit::LeadingPosition);
+    window.setWelcomeName();
     connect(ui->username , &QLineEdit::textChanged, this, &loginpage::on_username_textChanged);
     connect(ui->password , &QLineEdit::textChanged, this, &loginpage::on_password_textChanged);
     connect(&window, SIGNAL(homeClicked()), this, SLOT(moveHome()));
@@ -34,16 +36,18 @@ loginpage::~loginpage()
 
 void loginpage::on_signbutton_clicked()
 {
-    database.readPasswordAndLogin();
-    QString textOne = ui->username->text();
-    QString textTwo = ui->password->text();
-    std::string username = textOne.toStdString();
-    std::string password = textTwo.toStdString();
-    if (username == database.getname() && password == database.getpass()) {
+    QString password = ui->password->text();
+    QString username = ui->username->text();
+    bool flag = database.readPasswordAndLogin(password, username);
 
+
+    if (flag == true) {
+        window.getSaveDataConnect();
+        window.setWelcomeName();
         ui->stackedWidget->resize(1000, 700);
         ui->stackedWidget->setCurrentIndex(1);
-        this->setFixedSize(1000, 700);
+        setFixedSize(1000, 700);
+
         ui->username->clear();
         ui->password->clear();
     } else {
@@ -74,6 +78,10 @@ void loginpage::on_password_textChanged() {
 
 void loginpage::moveHome()
 {
+
+    window.resetButtons();
+    window.findChild<QPushButton *>("singout")->clearFocus();
+    setFixedSize(800, 580);
     ui->stackedWidget->setCurrentIndex(0);
     ui->stackedWidget->resize(800, 580);
 }
