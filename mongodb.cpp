@@ -5,7 +5,7 @@ MongoDB::MongoDB() {
 }
 
 void MongoDB::init() {
-    client = mongocxx::client(mongocxx::uri("mongodb+srv://nazarhkromiak:qwerty123@main.oizuvuy.mongodb.net/?retryWrites=true&w=majority"));
+    client = mongocxx::client(mongocxx::uri("mongodb+srv://nazarhkromiak:****@main.oizuvuy.mongodb.net/?retryWrites=true&w=majority"));
     auto db = client["myNewDatabase"];
     auto students = db["Students"];
     auto teachers = db["Teachers"];
