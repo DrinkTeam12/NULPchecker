@@ -38,11 +38,6 @@ Project for OOP C++
 * [Mongodb](https://www.mongodb.com/) - MongoDB is a document database used to build highly available and scalable internet applications. With its flexible schema approach, it's popular with development teams using agile methodologies.
 * [C++](https://uk.wikipedia.org/wiki/C%2B%2B) - C++ (or “C-plus-plus”) is a general-purpose programming and coding language. C++ is used in developing browsers, operating systems, and applications, as well as in-game programming, software engineering, data structures, etc.
 
-<div align="center">
-  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
-</div>
-
-
 ## 🔌 How to run project
 ### For Users:
 [Download](https://github.com/GameDevGymOfficial/lphackathon/archive/refs/heads/main.zip) `NULPchecker` from repository. Open `Builds` folder and start `.exe` file
@@ -50,3 +45,7 @@ Project for OOP C++
 [Download](https://github.com/GameDevGymOfficial/lphackathon/archive/refs/heads/main.zip) `AstroRhythm` from repository. Open `Unity Hub`, choose section `Projects`, click on `Open` and change us repository.
 > The legendary Delorian is traveling in the depths of space, try to find him. 
 > `I wonder when the first movie was released?`
+
+<div align="center">
+  <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
+</div>
