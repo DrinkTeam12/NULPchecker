@@ -40,11 +40,9 @@ Project for OOP C++
 
 ## 🔌 How to run project
 ### For Users:
-[Download](https://github.com/GameDevGymOfficial/lphackathon/archive/refs/heads/main.zip) `NULPchecker` from repository. Open `Builds` folder and start `.exe` file
+[Download](https://github.com/DrinkTeam12/OOP-project/archive/refs/heads/main.zip) `NULPchecker` . Open `setup.exe` file and install program. `password and login are 1234`
 ### For Developers:
-[Download](https://github.com/GameDevGymOfficial/lphackathon/archive/refs/heads/main.zip) `AstroRhythm` from repository. Open `Unity Hub`, choose section `Projects`, click on `Open` and change us repository.
-> The legendary Delorian is traveling in the depths of space, try to find him. 
-> `I wonder when the first movie was released?`
+[Download](https://github.com/DrinkTeam12/NULPchecker/archive/refs/heads/main.zip) `NULPchecker` from repository. Open `nulp.pro`, pay attention mongodb password for connect is incorrect.
 
 <div align="center">
   <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="600" height="300"/>
