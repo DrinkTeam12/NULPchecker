@@ -1,5 +1,3 @@
-Project for OOP C++
-
 # [ProjectOOP]
 ### Project for `'Object-oriented programming'`
 <div id="header" align="center">
